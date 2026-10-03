@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tanvi Shekar | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f7f8fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: white;
+            padding: 18px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav h2 {
+            font-size: 22px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 90px 20px;
+            background-color: #ffffff;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            max-width: 750px;
+            margin: auto;
+            font-size: 20px;
+            color: #555;
+        }
+
+        /* General sections */
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 70px 25px;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Skills */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .skill {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        /* Projects */
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 28px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            transition: 0.2s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .project h3 {
+            margin-bottom: 5px;
+            font-size: 21px;
+        }
+
+        .project h4 {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #222;
+            color: white;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 36px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <h2>Tanvi Shekar</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+
+    <!-- PERSONAL STATEMENT -->
+    <header id="about">
+
+        <h1>Hi, I'm Tanvi.</h1>
+
+        <p>
+            I'm a Finance and Marketing student at Rutgers Business School
+            combining data-driven analysis, strategic thinking, and creativity
+            to solve business problems and drive growth.
+        </p>
+
+    </header>
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">PowerPoint</div>
+            <div class="skill">SQL</div>
+            <div class="skill">R</div>
+            <div class="skill">Salesforce</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Market Research</div>
+            <div class="skill">Financial Analysis</div>
+            <div class="skill">Business Strategy</div>
+            <div class="skill">Project Management</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+            <div class="project">
+
+                <h3>Salesforce Seller Dashboard Assessment</h3>
+
+                <h4>Ahold Delhaize USA</h4>
+
+                <p>
+                    Conducted interviews with daily Salesforce users to evaluate
+                    dashboard adoption and identify workflow, usability, and
+                    data-related barriers. Developed recommendations to improve
+                    adoption and better integrate Salesforce into sales workflows.
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="project">
+
+                <h3>Immigrant Founder Research & Analysis</h3>
+
+                <h4>TAMID Group</h4>
+
+                <p>
+                    Leading a consulting research project analyzing a dataset of
+                    600+ founders in Israel to identify successful immigrant
+                    entrepreneurs and uncover patterns across founder backgrounds,
+                    industries, and company characteristics.
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="project">
+
+                <h3>Real Estate Risk Analysis</h3>
+
+                <h4>Goldman Sachs Forage Simulation</h4>
+
+                <p>
+                    Evaluated real estate and borrower risk using Excel-based
+                    models. Analyzed factors including credit score, income,
+                    debt, savings, and payment history to calculate weighted
+                    risk scores and classify different levels of financial risk.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 Tanvi Shekar | Rutgers Business School</p>
+
+    </footer>
+
+
+</body>
+
+</html>
